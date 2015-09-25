@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>My calculator</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="script.js"></script>
+
+</head>
+<body>
+
+<div id="calc">
+
+<form name="calc">
+
+  <input name="output" readonly="1" /><input class="go" type="button" name="go" value="GO" onClick="doIt()">
+		
+	
+			<input class="rmButtons" type="button" name="C" value="C" onClick="clearcalc()"/>
+			<input class="rmButtons" type="button" name="backspace" value="<-" onClick="back()"/>
+
+			<br>
+		
+			<input class="number" type="button" name="1" value="1" onClick="run1()"/>
+			<input class="number" type="button" name="2" value="2" onClick="run2()"/>
+			<input class="number" type="button" name="3" value="3" onClick="run3()"/>
+		
+
+		
+			<input class="number" type="button" name="4" value="4" onClick="run4()"/>
+			<input class="number" type="button" name="5" value="5" onClick="run5()"/>
+      <input class="number" type="button" name="6" value="6" onClick="run6()"/>
+    
+     		
+
+      <input class="number" type="button" name="7" value="7" onClick="run7()"/>
+      <input class="number" type="button" name="8" value="8" onClick="run8()"/>
+      <input class="number" type="button" name="9" value="9" onClick="run9()"/>
+       	
+
+
+      <input class="zero" type="button" name="0" value="0" onClick="run0()"/>
+			
+			<br>
+		
+			<input type="button" name="=" value="=" onClick="equal()"/>
+    	<input type="button" name="leftper" value="(" onClick="runPL()"/>
+			<input type="button" name="rightper" value=")" onClick="runPR()"/>
+
+
+
+			<input type="button" name="/" value="/" onClick="runDivide()"/>
+			<input type="button" name="x" value="x" onClick="runMultiply()"/>
+
+		
+
+			<input type="button" name="+" value="+" onClick="runPlus()"/>
+			<input type="button" name="-" value="-" onClick="runMinus()"/>
+
+  
+ 
+  </form>
+</div>
+</body>
+</html>
